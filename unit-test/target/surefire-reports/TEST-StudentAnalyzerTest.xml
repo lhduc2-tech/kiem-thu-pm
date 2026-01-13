@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="StudentAnalyzerTest" time="0.067" tests="19" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Admin\Desktop\ktpm\unit-test\target\test-classes;C:\Users\Admin\Desktop\ktpm\unit-test\target\classes;C:\Users\Admin\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\Admin\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Admin\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\Admin\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Admin\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\Admin\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="GMT+07:00"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\Admin\AppData\Local\Temp\surefire9015778632271641258\surefirebooter-20260113072508557_3.jar C:\Users\Admin\AppData\Local\Temp\surefire9015778632271641258 2026-01-13T07-25-07_549-jvmRun1 surefire-20260113072508557_1tmp surefire_0-20260113072508557_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Admin\Desktop\ktpm\unit-test\target\test-classes;C:\Users\Admin\Desktop\ktpm\unit-test\target\classes;C:\Users\Admin\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\Admin\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Admin\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\Admin\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Admin\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\Admin\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Admin"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Admin\Desktop\ktpm\unit-test"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Admin\AppData\Local\Temp\surefire9015778632271641258\surefirebooter-20260113072508557_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
+    <property name="user.name" value="Admin"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Admin\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Admin\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.12"/>
+    <property name="user.dir" value="C:\Users\Admin\Desktop\ktpm\unit-test"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\Softs\apache-maven-3.9.12-bin\apache-maven-3.9.12\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\nodejs\;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;C:\Users\Admin\AppData\Local\Programs\Antigravity\bin;C:\Program Files\JetBrains\DataGrip 2025.3.2\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.1\bin;C:\Users\Admin\AppData\Roaming\npm;C:\Program Files\JetBrains\WebStorm 2025.3.1\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.12+8-LTS-286"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testCountExcellentStudents_OnlyTen" classname="StudentAnalyzerTest" time="0.038"/>
+  <testcase name="testCountExcellentStudents_BoundaryValue8" classname="StudentAnalyzerTest" time="0.0"/>
+  <testcase name="testCalculateValidAverage_MixedValidInvalid" classname="StudentAnalyzerTest" time="0.005"/>
+  <testcase name="testCalculateValidAverage_AllValidScores" classname="StudentAnalyzerTest" time="0.0"/>
+  <testcase name="testCountExcellentStudents_MixedValidInvalid" classname="StudentAnalyzerTest" time="0.0"/>
+  <testcase name="testCountExcellentStudents_OnlyZero" classname="StudentAnalyzerTest" time="0.0"/>
+  <testcase name="testCountExcellentStudents_NullList" classname="StudentAnalyzerTest" time="0.0"/>
+  <testcase name="testCountExcellentStudents_NoExcellentStudents" classname="StudentAnalyzerTest" time="0.004"/>
+  <testcase name="testCalculateValidAverage_OnlyZero" classname="StudentAnalyzerTest" time="0.0"/>
+  <testcase name="testCalculateValidAverage_EmptyList" classname="StudentAnalyzerTest" time="0.0"/>
+  <testcase name="testCalculateValidAverage_NullList" classname="StudentAnalyzerTest" time="0.0"/>
+  <testcase name="testCalculateValidAverage_AllInvalidScores" classname="StudentAnalyzerTest" time="0.0"/>
+  <testcase name="testCalculateValidAverage_DecimalPrecision" classname="StudentAnalyzerTest" time="0.001"/>
+  <testcase name="testCountExcellentStudents_AllValidScores" classname="StudentAnalyzerTest" time="0.0"/>
+  <testcase name="testCalculateValidAverage_SingleValidScore" classname="StudentAnalyzerTest" time="0.0"/>
+  <testcase name="testCountExcellentStudents_AllInvalidScores" classname="StudentAnalyzerTest" time="0.0"/>
+  <testcase name="testCalculateValidAverage_BoundaryValues" classname="StudentAnalyzerTest" time="0.006"/>
+  <testcase name="testCalculateValidAverage_OnlyTen" classname="StudentAnalyzerTest" time="0.0"/>
+  <testcase name="testCountExcellentStudents_EmptyList" classname="StudentAnalyzerTest" time="0.0"/>
+</testsuite>
